@@ -70,7 +70,7 @@ void Graph_Initialization()
         v = encode(y);
 
         adj_matrix[u][v] = w;
-        adj_matrix[v][u] = w;
+        adj_matrix[v][u] = w;   //if u r thinking,this is just i put,wrong.This is actually crucial for my algo
 
     }
 }
