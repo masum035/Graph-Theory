@@ -1,7 +1,6 @@
 //**Auther : Abdullah Al Masum
 //to convert into int or string or char type data type
 //change inside <> when Graph class is called
-//class function addEdge() parameter type change
 //in driver code,change input type.
 
 #include <stdio.h>
@@ -21,7 +20,7 @@ public:
     {
         this->N = V;
     }
-    void addEdge(char x, char y)
+    void addEdge(T x, T y)
     {
         li[x].push_back(y);
         li[y].push_back(x);
